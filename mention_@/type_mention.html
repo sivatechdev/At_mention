@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="type_mention.css" />
+    </head>
+    <body>
+        <div class="main">
+            <div class="head">
+                <label>Enter the name:</label>
+                <div contenteditable="true" id="inputs" onkeyup=execute(event) onautofocus></div>
+                <ul class="list">
+                </ul>
+            </div>
+            <div class="button">
+                <button onclick=transaction()>Enter</button>
+            </div>
+            <div class="comment">
+                <ul class="box" id="box">
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="./js_file/type_mention.js"></script>
+    </body>
+</html>
