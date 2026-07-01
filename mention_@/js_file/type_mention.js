@@ -1,5 +1,6 @@
 "use strict";
 let names = ["Mobile", "Laptop", "Computer", "Tablet", "Microphone", "Speaker", "Bluetooth", "Keyboard", "Mouse"];
+// Should be constant values
 let pos = -1;
 names.sort();
 function execute(e) {
