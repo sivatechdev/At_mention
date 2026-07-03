@@ -1,7 +1,7 @@
 let names:string []=["Mobile","Laptop","Computer","Tablet","Microphone","Speaker","Bluetooth","Keyboard","Mouse"];
 let pos:number = -1;
 names.sort();
-
+// sorting for names
 function execute(e:Event) {
     destructing();
     let get_event = e.currentTarget as HTMLElement;
