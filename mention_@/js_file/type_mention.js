@@ -3,6 +3,7 @@ let names = ["Mobile", "Laptop", "Computer", "Tablet", "Microphone", "Speaker", 
 // Should be constant values
 let pos = -1;
 names.sort();
+// sorting purpose
 function execute(e) {
     destructing();
     let get_event = e.currentTarget;
